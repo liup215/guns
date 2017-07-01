@@ -28,7 +28,7 @@ public class MyBatisPlusGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("D:\\ideaSpace\\guns\\src\\main\\java");//这里写你自己的java目录
+        gc.setOutputDir("D:\\developer\\idea\\ideaIU-2016.2.5\\workspace\\guns\\src\\main\\java");//这里写你自己的java目录
         gc.setFileOverride(true);//是否覆盖
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -49,8 +49,8 @@ public class MyBatisPlusGenerator {
         });
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns?characterEncoding=utf8");
+        dsc.setPassword("123456");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns?useSSL=false&characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置

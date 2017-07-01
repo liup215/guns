@@ -10,7 +10,7 @@ import com.stylefeng.guns.core.util.ToolUtil;
  */
 public class ContextConfig {
 
-    private String projectPath = "D:\\ideaSpace\\guns";//模板输出的项目目录
+    private String projectPath = "D:\\developer\\idea\\ideaIU-2016.2.5\\workspace\\guns";//模板输出的项目目录
     private String bizChName;   //业务名称
     private String bizEnName;   //业务英文名称
     private String bizEnBigName;//业务英文名称(大写)
