@@ -37,7 +37,7 @@ public class DeptController extends BaseController {
 
     private String PREFIX = "/system/dept/";
 
-    @Resource
+//    @Resource
     DeptDao deptDao;
 
     @Resource
